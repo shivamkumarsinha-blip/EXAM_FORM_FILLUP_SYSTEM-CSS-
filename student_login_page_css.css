@@ -1,0 +1,76 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container */
+.container {
+    background-color: white;
+    padding: 25px 30px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title */
+.title {
+    margin-bottom: 15px;
+}
+
+/* Labels */
+.label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Input fields */
+.input-field {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Login button */
+.login-btn {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #2d6cdf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #1b4fb8;
+}
+
+/* Register text */
+.register-text {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+/* Register button */
+.register-btn {
+    background: none;
+    border: none;
+    color: #2d6cdf;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.register-btn:hover {
+    text-decoration: underline;
+}

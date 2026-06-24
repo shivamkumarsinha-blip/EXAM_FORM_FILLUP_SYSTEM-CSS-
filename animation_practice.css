@@ -1,0 +1,54 @@
+*{ margin:0; padding:0; }
+body{
+    background:#222;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    }
+    .game-area{
+      border:8px solid #444;
+      background:#f0c040;
+      width:1200px;
+      height:600px;
+      position:relative;
+      overflow:hidden;
+    }
+    /* Top moving block */
+    #box1{
+      width:200px; height:30px;
+      background:#00bfff;
+      position:absolute;
+      top:0; left:0;
+      animation:rightmovement 3s linear infinite alternate;
+    }
+    @keyframes rightmovement{
+      from{ left:0; }
+      to{ left:1000px; }
+    }
+    /* Bottom moving block */
+    #box2{
+      width:200px; height:30px;
+      background:#ff6347;
+      position:absolute;
+      bottom:0; left:1000px;
+      animation:leftmovement 3s linear infinite alternate;
+    }
+    @keyframes leftmovement{
+      from{ left:1000px; }
+      to{ left:0; }
+    }
+    /* Ball */
+    #ball{
+      width:40px; height:40px;
+      background:#00ff7f;
+      border-radius:50%;
+      position:absolute;
+      left:580px; /* center horizontally */
+      animation: ballbounce 3s linear infinite;
+    }
+    @keyframes ballbounce{
+      0%   { top:30px; }    /* near top block */
+      50%  { top:530px; }   /* near bottom block */
+      100% { top:30px; }    /* back to top */
+    }
