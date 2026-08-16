@@ -14,7 +14,7 @@ body{
       position:relative;
       overflow:hidden;
     }
-    /* Top moving block */
+  
     #box1{
       width:200px; height:30px;
       background:#00bfff;
@@ -26,7 +26,7 @@ body{
       from{ left:0; }
       to{ left:1000px; }
     }
-    /* Bottom moving block */
+   
     #box2{
       width:200px; height:30px;
       background:#ff6347;
@@ -38,17 +38,17 @@ body{
       from{ left:1000px; }
       to{ left:0; }
     }
-    /* Ball */
+    
     #ball{
       width:40px; height:40px;
       background:#00ff7f;
       border-radius:50%;
       position:absolute;
-      left:580px; /* center horizontally */
+      left:580px; 
       animation: ballbounce 3s linear infinite;
     }
     @keyframes ballbounce{
-      0%   { top:30px; }    /* near top block */
-      50%  { top:530px; }   /* near bottom block */
-      100% { top:30px; }    /* back to top */
+      0%   { top:30px; }    
+      50%  { top:530px; }   
+      100% { top:30px; }    
     }
