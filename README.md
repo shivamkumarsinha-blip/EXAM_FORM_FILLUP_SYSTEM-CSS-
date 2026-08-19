@@ -52,7 +52,7 @@ EXAM_FORM_FILLUP_SYSTEM-CSS-
 1. Clone the repository
 
 ```bash
-git clone https://github.com/sinhashivam663-blip/EXAM_FORM_FILLUP_SYSTEM-CSS-.git
+git clone https://github.com/shivamkumarsinha-blip/EXAM_FORM_FILLUP_SYSTEM-CSS-.git
 ```
 
 2. Open the project folder.
@@ -101,5 +101,5 @@ git clone https://github.com/sinhashivam663-blip/EXAM_FORM_FILLUP_SYSTEM-CSS-.gi
 
 **Shivam Kumar Sinha**
 
-GitHub: https://github.com/sinhashivam663-blip
+GitHub: https://github.com/shivamkumarsinha-blip
 
