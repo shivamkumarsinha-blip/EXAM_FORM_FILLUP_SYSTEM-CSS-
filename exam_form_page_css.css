@@ -1,35 +1,30 @@
-/* Body */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: whitesmoke;
     padding: 20px;
 }
 
-/* Title */
 .title {
     text-align: center;
     margin-bottom: 15px;
 }
 
-/* Labels */
 .label {
     display: block;
     margin-top: 10px;
     font-size: 14px;
 }
 
-/* Inputs & Select */
 .input-field,
 .select-field,
 .file-input {
     width: 100%;
     padding: 8px;
     margin-top: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid lightgray;
     border-radius: 5px;
 }
 
-/* Checkbox */
 .checkbox {
     margin-top: 8px;
 }
@@ -38,12 +33,11 @@ body {
     font-size: 14px;
 }
 
-/* Button */
 .submit-btn {
     width: 100%;
     margin-top: 15px;
     padding: 10px;
-    background-color: #2d6cdf;
+    background-color: royalblue;
     color: white;
     border: none;
     border-radius: 5px;
@@ -51,5 +45,5 @@ body {
 }
 
 .submit-btn:hover {
-    background-color: #1b4fb8;
+    background-color: mediumblue;
 }
