@@ -1,54 +1,59 @@
 *{ margin:0; padding:0; }
+
 body{
-    background:#222;
+    background: darkslategray;
     display:flex;
     justify-content:center;
     align-items:center;
     height:100vh;
-    }
-    .game-area{
-      border:8px solid #444;
-      background:#f0c040;
-      width:1200px;
-      height:600px;
-      position:relative;
-      overflow:hidden;
-    }
-  
-    #box1{
-      width:200px; height:30px;
-      background:#00bfff;
-      position:absolute;
-      top:0; left:0;
-      animation:rightmovement 3s linear infinite alternate;
-    }
-    @keyframes rightmovement{
-      from{ left:0; }
-      to{ left:1000px; }
-    }
-   
-    #box2{
-      width:200px; height:30px;
-      background:#ff6347;
-      position:absolute;
-      bottom:0; left:1000px;
-      animation:leftmovement 3s linear infinite alternate;
-    }
-    @keyframes leftmovement{
-      from{ left:1000px; }
-      to{ left:0; }
-    }
-    
-    #ball{
-      width:40px; height:40px;
-      background:#00ff7f;
-      border-radius:50%;
-      position:absolute;
-      left:580px; 
-      animation: ballbounce 3s linear infinite;
-    }
-    @keyframes ballbounce{
-      0%   { top:30px; }    
-      50%  { top:530px; }   
-      100% { top:30px; }    
-    }
+}
+
+.game-area{
+    border:8px solid #444;
+    background: #f0c040;
+    width:1200px;
+    height:600px;
+    position:relative;
+    overflow:hidden;
+}
+
+#box1{
+    width:200px; height:30px;
+    background: deepskyblue;
+    position:absolute;
+    top:0; left:0;
+    animation:rightmovement 3s linear infinite alternate;
+}
+
+@keyframes rightmovement{
+    from{ left:0; }
+    to{ left:1000px; }
+}
+
+#box2{
+    width:200px; height:30px;
+    background: tomato;
+    position:absolute;
+    bottom:0; left:1000px;
+    animation:leftmovement 3s linear infinite alternate;
+}
+
+@keyframes leftmovement{
+    from{ left:1000px; }
+    to{ left:0; }
+}
+
+#ball{
+    width:40px; height:40px;
+    background: springgreen;
+    border-radius:50%;
+    position:absolute;
+    left:580px;
+    animation: ballbounce 3s linear infinite;
+}
+
+@keyframes ballbounce{
+    0%   { top:30px; }
+    50%  { top:530px; }
+    100% { top:30px; }
+}
