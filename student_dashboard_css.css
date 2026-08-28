@@ -1,14 +1,12 @@
-/* Body */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-/* Container */
 .container {
     background-color: white;
     padding: 30px;
@@ -18,19 +16,16 @@ body {
     text-align: center;
 }
 
-/* Title */
 .title {
     margin-bottom: 20px;
 }
 
-/* Button group */
 .btn-group {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
 
-/* Common button */
 .btn {
     padding: 10px;
     width: 48%;
@@ -40,29 +35,26 @@ body {
     color: white;
 }
 
-/* Fill form button */
 .fill-btn {
-    background-color: #2d6cdf;
+    background-color: royalblue;
 }
 
 .fill-btn:hover {
-    background-color: #1b4fb8;
+    background-color: mediumblue;
 }
 
-/* Status button */
 .status-btn {
-    background-color: #28a745;
+    background-color: green;
 }
 
 .status-btn:hover {
-    background-color: #1e7e34;
+    background-color: darkgreen;
 }
 
-/* Logout button */
 .logout-btn {
     width: 100%;
     padding: 10px;
-    background-color: #6c757d;
+    background-color: gray;
     color: white;
     border: none;
     border-radius: 5px;
@@ -70,5 +62,5 @@ body {
 }
 
 .logout-btn:hover {
-    background-color: #5a6268;
+    background-color: dimgray;
 }
