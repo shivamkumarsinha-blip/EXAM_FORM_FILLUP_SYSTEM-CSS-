@@ -1,42 +1,35 @@
-/* Body */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: whitesmoke;
     padding: 20px;
 }
 
-/* Title */
 .title {
     text-align: center;
     margin-bottom: 20px;
 }
 
-/* Table */
 .table {
     width: 100%;
     border-collapse: collapse;
     background-color: white;
 }
 
-/* Table head */
 .table-head th {
-    background-color: #2d6cdf;
+    background-color: royalblue;
     color: white;
     padding: 10px;
 }
 
-/* Table cells */
 .table td {
     padding: 10px;
     text-align: center;
 }
 
-/* Row borders */
 .table, .table th, .table td {
-    border: 1px solid #ccc;
+    border: 1px solid lightgray;
 }
 
-/* Buttons common */
 .btn {
     padding: 6px 10px;
     border: none;
@@ -45,25 +38,22 @@ body {
     cursor: pointer;
 }
 
-/* Approve */
 .approve-btn {
-    background-color: #28a745;
+    background-color: green;
 }
 
 .approve-btn:hover {
-    background-color: #1e7e34;
+    background-color: darkgreen;
 }
 
-/* Approved */
 .approved-btn {
-    background-color: #6c757d;
+    background-color: gray;
 }
 
-/* Reject */
 .reject-btn {
-    background-color: #dc3545;
+    background-color: red;
 }
 
 .reject-btn:hover {
-    background-color: #a71d2a;
+    background-color: darkred;
 }
