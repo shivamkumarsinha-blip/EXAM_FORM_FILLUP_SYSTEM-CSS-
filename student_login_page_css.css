@@ -1,14 +1,12 @@
-/* Body styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-/* Main container */
 .container {
     background-color: white;
     padding: 25px 30px;
@@ -18,12 +16,10 @@ body {
     text-align: center;
 }
 
-/* Title */
 .title {
     margin-bottom: 15px;
 }
 
-/* Labels */
 .label {
     display: block;
     text-align: left;
@@ -31,21 +27,19 @@ body {
     font-size: 14px;
 }
 
-/* Input fields */
 .input-field {
     width: 100%;
     padding: 8px;
     margin-top: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid lightgray;
     border-radius: 5px;
 }
 
-/* Login button */
 .login-btn {
     width: 100%;
     margin-top: 15px;
     padding: 10px;
-    background-color: #2d6cdf;
+    background-color: royalblue;
     color: white;
     border: none;
     border-radius: 5px;
@@ -53,20 +47,18 @@ body {
 }
 
 .login-btn:hover {
-    background-color: #1b4fb8;
+    background-color: mediumblue;
 }
 
-/* Register text */
 .register-text {
     margin-top: 10px;
     font-size: 13px;
 }
 
-/* Register button */
 .register-btn {
     background: none;
     border: none;
-    color: #2d6cdf;
+    color: royalblue;
     cursor: pointer;
     font-weight: bold;
 }
